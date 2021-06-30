@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+footer[colin]{
+    background-color: brown;
+}
+
+
+
+/* formulaire */
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+form>*{
+
+    margin: auto;
+}
+
+.ng-pristine{
+    border: 1px gray dotted;
+}
+
+.ng-valid{
+    border-bottom: green 3px solid;
+}
+input.ng-invalid{
+    border-bottom: red 3px solid;
+}
+.ng-touched{
+    border-top: orange 3px solid;
+}
+
+
+input[disable]{
+    opacity: .5;
+}

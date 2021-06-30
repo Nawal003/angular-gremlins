@@ -1,0 +1,13 @@
+<article *ngFor="let g of gremlinsServ.gremlins">
+    <div *ngIf="g.statut=='méchant'">
+        <h3>{{g.nom}}</h3>
+        <img [src]="g.img">
+        <ul>
+            <li>{{g.statut}}</li>
+            <li>{{g.taille}}</li>
+        </ul>
+    </div>
+
+
+
+</article>

@@ -1,0 +1,65 @@
+[
+    {
+        "nom": "Nawal",
+        "statut": "mignon",
+        "taille": "30cm",
+        "img": "assets/gremlins/Gentils/3.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Colin",
+        "statut": "mignon",
+        "taille": "50cm",
+        "img": "assets/gremlins/Gentils/4.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Nico",
+        "statut": "méchant",
+        "taille": "70cm",
+        "img": "assets/gremlins/Mechants/2.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Nawal",
+        "statut": "mignon",
+        "taille": "30cm",
+        "img": "assets/gremlins/Gentils/3.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Colin",
+        "statut": "mignon",
+        "taille": "50cm",
+        "img": "assets/gremlins/Gentils/4.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Nico",
+        "statut": "méchant",
+        "taille": "70cm",
+        "img": "assets/gremlins/Mechants/2.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Nawal",
+        "statut": "mignon",
+        "taille": "30cm",
+        "img": "assets/gremlins/Gentils/3.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Colin",
+        "statut": "mignon",
+        "taille": "50cm",
+        "img": "assets/gremlins/Gentils/4.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    },
+    {
+        "nom": "Nico",
+        "statut": "méchant",
+        "taille": "70cm",
+        "img": "assets/gremlins/Mechants/2.gif",
+        "description": "lkqjeflhreqlkhtlkjrehkjdhfkjgkjrebkjgkjreb"
+    }
+]

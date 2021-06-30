@@ -1,0 +1,25 @@
+<section>
+    <form #ctlF="ngForm">
+        <label for="nom">Nom</label>
+        <input name="nom" required placeholder="Nom du gremlins" [(ngModel)]="ajouter.nom">
+        <label for="statut">Type de Gremlins</label>
+        <label for="img"></label>
+        <input name="img" type="file" [(ngModel)]="ajouter.img">
+
+        <select name="statut" [(ngModel)]="ajouter.statut">
+            <option value="0">Indiquer un type</option>
+            <option value="1">Mignon</option>
+            <option value="2">Méchant</option>
+        </select>
+        <label for="taille">Taille</label>
+        <input name="taille" required [(ngModel)]="ajouter.taille">
+
+
+        <label for="description"></label>
+        <textarea name="description" required placeholder="description" [(ngModel)]="ajouter.description"></textarea>
+        <input type="submit" value="Envoyer" [disabled]="ctlF.invalid">
+        <input type="reset" value="Annuler">
+
+    </form>
+
+</section>

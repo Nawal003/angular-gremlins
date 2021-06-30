@@ -1,0 +1,25 @@
+<section>
+    <form #ctlF="ngForm">
+        <label for="nom">Votre Nom</label>
+        <input name="nom" required placeholder="Votre nom" [(ngModel)]="alerte.nom">
+        <label for="coordonnees"></label>
+        <input name="coordonnees" required placeholder="coordonnees" [(ngModel)]="alerte.coordonnees">
+        <label for="menace">Niveau de menace</label>
+
+        <select name="menace" [(ngModel)]="alerte.menace">
+            <option value="0">Un niveau</option>
+            <option value="1">Une info</option>
+            <option value="100000">Mortelle</option>
+            <option value="20000000">Cataclysmique</option>
+            <option value="345789798798379879273984">Apocaliptique</option>
+        </select>
+
+
+        <label for="message">Nature de menace</label>
+        <textarea name="message" required [(ngModel)]="alerte.message"></textarea>
+        <input type="submit" value="Envoyer" [disabled]="ctlF.invalid" (click)="log()">
+        <input type="reset" value="Annuler">
+
+    </form>
+
+</section>
